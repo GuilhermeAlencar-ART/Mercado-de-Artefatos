@@ -1,0 +1,160 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1500px;
+    width: 900px;
+    background:
+        repeating-linear-gradient(
+            90deg,
+            transparent 0px,
+            rgba(0, 0, 0, 0.12) 3px,
+            transparent 8px,
+            rgba(255, 200, 120, 0.1) 15px
+        ),
+        linear-gradient(
+            90deg,
+            #5c321b,
+            #8b542e,
+            #6b3e22,
+            #a36a3d,
+            #5c321b
+        );
+
+    border: 4px solid #3d2415;
+
+    box-shadow:
+        inset 0 0 15px rgba(0, 0, 0, 0.5),
+        0 5px 10px rgba(0, 0, 0, 0.4);
+
+    border-radius: 8px;
+}
+
+.titulo-principal {
+    color: gold;
+    text-shadow: 2px 2px 4px #eba309;
+    text-align: center;
+    padding: 20px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.cards {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #d8b37c;
+    color: rgb(192, 191, 184);
+    padding: 30px;
+    border-radius: 8px; 
+    border: 2px solid #3d2415;
+    gap: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+
+}
+
+.cards h3 {
+    color: gold;
+}
+
+.cards .preco {
+    color: gold;
+}
+
+.celo {
+    position: absolute;
+    top: -30px;
+    left: 39%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(231, 13, 13);
+    border-radius: 50%;
+    pointer-events: none; 
+    border: 2px solid #410505;
+    gap: 10px;
+    
+}
+
+.img-1 {
+    width: 150px;
+    height: 100px;
+
+    
+    background-image: url("https://pt.runescape.wiki/images/Cajado_da_luz_detalhe.png?2c54a");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:#ccb188;
+}   
+.img-2 {
+    width: 150px;
+    height: 100px;
+
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO_A78i3Lovi7MplPj3qzW3S0FHDstVPOl5Z9ye_3Q3g&s=10");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+      background-color:#ccb188;
+      
+}
+.img-3 {
+    width: 150px;
+    height: 100px;
+
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeXo3VHJGq6vk-wv17EnPHMS03F4KyWIYwWKTq1ohtrA&s=10");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+      background-color:#ccb188;
+}
+.img-4 {
+    width: 150px;
+    height: 100px;
+
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFYQDI2Svh9QAWmxgJqc5Nhj4lwzgVUuUjEmkvU80HRQ&s=10");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+      background-color:#ccb188;
+}
+.img-5 {
+    width: 150px;
+    height: 100px;
+
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr-aHX_T8y7XgX1TbQa0bG2PMSysTPvCEkHP8nOZkWYXWWFQL4gqYBIJs&s=10");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+      background-color:#ccb188;
+
+}
+.img-6 {
+    width: 150px;
+    height: 100px;
+
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrWglGEn9_hrEPUNR3iIj0uOAoRh9wyeCel_GpBN4DtQ&s=10");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+      background-color:#ccb188;
+
+}
